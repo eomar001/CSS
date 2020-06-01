@@ -1,0 +1,50 @@
+body{
+	background-color: white;
+	font-family: Arial, Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.5em;
+background-image: url('abstract.jpeg');
+background-repeat: no-repeat;
+background-position: center center;
+}
+.container{
+	width:500px;
+	margin:auto;
+}
+.box-1{
+	background-color: yellow;
+	color: black;
+	border: 5px orange dotted;
+	;
+
+}
+.my-form{
+	padding:20px;
+
+}
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+.my-form input[type="submit"]{
+	background-color: grey;
+	color:pink;
+}
+.fix-me{
+	position: fixed;
+	top:200px;
+}
+.my-list li:first-child{
+	background: red;
+	
+
+}
